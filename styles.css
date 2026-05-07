@@ -54,22 +54,41 @@
     margin-left: 19px;
     margin-right: 19px;
     border-radius: 0.3rem;
+    transition: transform 1.2s ease;
 }
 
 .tarjetas:hover{
     background-color: #2a3cc0;
     color: white;
     transition: background-color 0.5s ease, color 0.5s ease;
+    transform: scale(1.1);
 }
 
 H1{
     color: var(--azul-principal);
     text-align: center;
     margin: 20px;
-    background: linear-gradient(#0f1fff, #ffffffa8);
+    background: linear-gradient(#0f1fff, #ffffff);
     -webkit-background-clip: text;
     color: transparent;
 
+}
+
+h2{
+    color: #ffffffc8;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-link{
+    margin-left: 0.2rem;
+    color: rgb(0, 68, 151);
+    transition: color 0.5s ease;   
+}
+
+.contacto-link:hover{
+    color: rgb(0, 166, 255);
+    text-shadow: 0 0 30px rgb(255, 255, 255);
 }
 
 .titulo1{
@@ -99,6 +118,7 @@ H1{
 
 .pie-de-pagina{
     background-color: var(--azul-principal);
+    color: aliceblue;
     margin: 0.rem;
     margin-left: 0.8rem;
     margin-right: 0.8rem;
