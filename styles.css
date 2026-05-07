@@ -51,8 +51,16 @@
     margin-top: 22px;
     padding: 15px;
     background-color: #2a3cc0a4;
+    margin-left: 19px;
+    margin-right: 19px;
+    border-radius: 0.3rem;
 }
 
+.tarjetas:hover{
+    background-color: #2a3cc0;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
 
 H1{
     color: var(--azul-principal);
@@ -63,7 +71,48 @@ H1{
     color: transparent;
 
 }
+
+.titulo1{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo3{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo4{
+    display: flex;
+    justify-content: center;
+}
+
 .body{
     background-color: var(--negro);
     font-family: 'Barlow Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pie-de-pagina{
+    background-color: var(--azul-principal);
+    margin: 0.rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction:row;
+}
+
+
+.contacto{
+    margin-left: 0.8rem;
+}
+.icono-wpp{
+    margin: 10px;
 }
