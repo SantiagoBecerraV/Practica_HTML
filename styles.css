@@ -1,27 +1,69 @@
 :root{
-    background-color: #0a0505;
+    --azul-principal: #1a2475dc;
+    --negro: #0a0505;
+}
+
+
+.main{
+    background-color: var(--azul-principal);
+    border-radius: 0.4rem;
+    margin: 0.4rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    border-bottom: 2px solid rgb(139, 139, 139);
+    border-top: 2px solid rgb(139, 139, 139);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    background-color: var(--azul-principal);
+    border-radius: 0.3rem;
+    border-bottom: 2.4px solid rgb(139, 139, 139);
+    margin: 0.4rem;
+    margin-bottom: 1.8rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    
+}
+
+.nombre{
+    transition: text-shadow 0.9s ease;
+}
+
+.nombre:hover{
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.507),
+    0 0 60px rgb(25, 86, 255);
 }
 
 .caja{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .tarjetas{
     font-size: 25px;
     margin: 10px;
+    margin-top: 22px;
     padding: 15px;
-    background-color: rgb(255, 157, 9);
-    border-radius: 0.8rem;
+    background-color: #2a3cc0a4;
 }
 
+
 H1{
-    color: rgb(216, 130, 0);
+    color: var(--azul-principal);
     text-align: center;
     margin: 20px;
+    background: linear-gradient(#0f1fff, #ffffffa8);
+    -webkit-background-clip: text;
+    color: transparent;
+
 }
 .body{
-    background-color: #0a0505;
+    background-color: var(--negro);
     font-family: 'Barlow Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
